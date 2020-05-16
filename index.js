@@ -49,7 +49,6 @@ router.post('/user', async (ctx) => {
 });
 app.use(check);
 app.use(koaBody());
-
 app.use(router.routes())   // 将上面定义的router方法添加到app
   .use(router.allowedMethods());
 app.listen(3000);
