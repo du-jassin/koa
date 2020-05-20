@@ -1,6 +1,6 @@
 // 业务配置
 /**
-module.exports = function (ctx) {
+ module.exports = function (ctx) {
   ctx.body = {
     "message" : "hello form b"
   }
